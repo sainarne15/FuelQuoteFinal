@@ -1,0 +1,108 @@
+﻿@model FuelQuoteApp_p1.Models.Account.Login
+@{
+    ViewData["Title"] = "Login";
+}
+<link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery-1.10.2.min.js">
+    $("#loginID").hide();
+
+
+</script>
+
+<style>
+#main_container
+{
+    font-family:futura
+}
+#log
+{
+    font-family:futura;
+    color:#DA252A;
+}
+#buttn
+{
+    border-radius: 20px;
+    /* color: #DA252A; */
+    background-color:#5e9693;
+    border-color:#5e9693;
+}
+#id
+{
+    text-align:center;
+    margin:auto;
+    display:block;
+}
+#img
+{
+    text-align:center;
+}
+.panel-heading
+{
+    text-align:center;
+}
+.container
+{
+    margin-left:360px;
+}
+</style>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        var yourPrompt= '@ViewData["PromptMessage"]';
+        if(yourPrompt=="Invalid"){
+        alert("Invalid Credentials supplied");
+       }        
+    });
+</script>
+<div id="main_container">
+<div class="container">
+    <div class="row centered-form" style="margin-top: 150px;">
+       
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div id="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp1ntFHtfwK9YnVKa9e-YJC6NNggOAxdRS2z1rNwl1k3K9Rh3RfvMowPOmuF0hdCTk1vo&usqp=CAU" alt="Trulli" width="350" height="200">
+                </div>
+              @*  <div class="panel-heading">
+                    <h3 class="panel-title" id="log">
+                       Login to your Account
+                    </h3>
+                </div>*@
+                <div class="panel-body">
+                    <form role="form" asp-action="Login" asp-controller="Account" method="post">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+
+                            <input asp-for="Email" class="form-control input-sm" placeholder="Email Address">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+
+                            <input asp-for="Password" class="form-control input-sm" placeholder="Password">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-checkbox">
+                                <label asp-for="RememberMe">
+                                    <input asp-for="RememberMe"/>
+                                    @Html.DisplayNameFor(m => m.RememberMe)
+                                </label>
+                            </div>
+                        </div>
+                        <input type="submit" value="Login" class="btn btn-info btn-block" id="buttn">
+                    </form>
+                </div>
+            </div>
+            <span>Not a Member?</span> <a asp-area="" asp-controller="Account" asp-action="Register">Sign Up Now</a>
+        </div>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#buttn").click(function () {
+         $("#name_bar").css("display", "none");
+    });
+});
+</script>

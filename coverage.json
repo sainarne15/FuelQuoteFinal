@@ -1,0 +1,4262 @@
+{
+  "FuelQuoteApp_p1.BusinessLayer.dll": {
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1.BusinessLayer\\Program.cs": {
+      "FuelQuoteApp_p1.BusinessLayer.Program": {
+        "System.Void FuelQuoteApp_p1.BusinessLayer.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder FuelQuoteApp_p1.BusinessLayer.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1.BusinessLayer\\Startup.cs": {
+      "FuelQuoteApp_p1.BusinessLayer.Startup": {
+        "System.Void FuelQuoteApp_p1.BusinessLayer.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void FuelQuoteApp_p1.BusinessLayer.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1.BusinessLayer\\BL\\Price.cs": {
+      "FuelQuoteApp_p1.BusinessLayer.BL.Price": {
+        "System.Single FuelQuoteApp_p1.BusinessLayer.BL.Price::get_PricePerGallon()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Single FuelQuoteApp_p1.BusinessLayer.BL.Price::get_TotalAmount()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1.BusinessLayer\\BL\\QuoteDetails.cs": {
+      "FuelQuoteApp_p1.BusinessLayer.BL.QuoteDetails": {
+        "System.Int32 FuelQuoteApp_p1.BusinessLayer.BL.QuoteDetails::get_GallonsRequested()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime FuelQuoteApp_p1.BusinessLayer.BL.QuoteDetails::get_DateRequested()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.BusinessLayer.BL.QuoteDetails::get_State()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 FuelQuoteApp_p1.BusinessLayer.BL.QuoteDetails::get_quoteHistory()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "FuelQuoteApp_p1.dll": {
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Program.cs": {
+      "FuelQuoteApp_p1.Program": {
+        "System.Void FuelQuoteApp_p1.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder FuelQuoteApp_p1.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Startup.cs": {
+      "FuelQuoteApp_p1.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration FuelQuoteApp_p1.Startup::get_Configuration()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Void FuelQuoteApp_p1.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0
+          },
+          "Branches": []
+        },
+        "System.Void FuelQuoteApp_p1.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 9,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void FuelQuoteApp_p1.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Repository\\FuelQuoteRepository.cs": {
+      "FuelQuoteApp_p1.Repository.FuelQuoteRepository": {
+        "FuelQuoteApp_p1.EntModels.Models.Client FuelQuoteApp_p1.Repository.FuelQuoteRepository::AddClient(FuelQuoteApp_p1.EntModels.Models.Client)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 150,
+              "EndOffset": 155,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 150,
+              "EndOffset": 304,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "FuelQuoteApp_p1.EntModels.Models.Quote FuelQuoteApp_p1.Repository.FuelQuoteRepository::AddQuote(FuelQuoteApp_p1.EntModels.Models.Quote)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        },
+        "FuelQuoteApp_p1.EntModels.Models.User FuelQuoteApp_p1.Repository.FuelQuoteRepository::AddUser(FuelQuoteApp_p1.EntModels.Models.User)": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": []
+        },
+        "FuelQuoteApp_p1.EntModels.Models.Client FuelQuoteApp_p1.Repository.FuelQuoteRepository::GetClient(System.Int32)": {
+          "Lines": {
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean FuelQuoteApp_p1.Repository.FuelQuoteRepository::GetClientInfo(System.Int32)": {
+          "Lines": {
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0
+          },
+          "Branches": [
+            {
+              "Line": 72,
+              "Offset": 130,
+              "EndOffset": 132,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 130,
+              "EndOffset": 138,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.IEnumerable`1<FuelQuoteApp_p1.EntModels.Models.Quote> FuelQuoteApp_p1.Repository.FuelQuoteRepository::GetQuoteHistory(System.Int32)": {
+          "Lines": {
+            "83": 0,
+            "84": 0,
+            "86": 0,
+            "87": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 FuelQuoteApp_p1.Repository.FuelQuoteRepository::GetQuoteHistoryCount(System.Int32)": {
+          "Lines": {
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 FuelQuoteApp_p1.Repository.FuelQuoteRepository::GetUserID(System.String)": {
+          "Lines": {
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0
+          },
+          "Branches": []
+        },
+        "System.Void FuelQuoteApp_p1.Repository.FuelQuoteRepository::.ctor(FuelQuoteApp_p1.Models.Account.FuelQuoteDBContext)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Provider\\FuelQuoteProvider.cs": {
+      "FuelQuoteApp_p1.Provider.FuelQuoteProvider": {
+        "FuelQuoteApp_p1.EntModels.Models.Client FuelQuoteApp_p1.Provider.FuelQuoteProvider::AddClient(FuelQuoteApp_p1.EntModels.Models.Client)": {
+          "Lines": {
+            "16": 1,
+            "17": 1,
+            "18": 1
+          },
+          "Branches": []
+        },
+        "FuelQuoteApp_p1.EntModels.Models.Quote FuelQuoteApp_p1.Provider.FuelQuoteProvider::AddQuote(FuelQuoteApp_p1.EntModels.Models.Quote)": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1
+          },
+          "Branches": []
+        },
+        "FuelQuoteApp_p1.EntModels.Models.User FuelQuoteApp_p1.Provider.FuelQuoteProvider::AddUser(FuelQuoteApp_p1.EntModels.Models.User)": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        },
+        "FuelQuoteApp_p1.EntModels.Models.Client FuelQuoteApp_p1.Provider.FuelQuoteProvider::GetClient(System.Int32)": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "33": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean FuelQuoteApp_p1.Provider.FuelQuoteProvider::GetClientInfo(System.Int32)": {
+          "Lines": {
+            "36": 1,
+            "37": 1,
+            "38": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<FuelQuoteApp_p1.EntModels.Models.Quote> FuelQuoteApp_p1.Provider.FuelQuoteProvider::GetQuoteHistory(System.Int32)": {
+          "Lines": {
+            "41": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 FuelQuoteApp_p1.Provider.FuelQuoteProvider::GetQuoteHistoryCount(System.Int32)": {
+          "Lines": {
+            "46": 1,
+            "47": 1,
+            "48": 1
+          },
+          "Branches": []
+        },
+        "System.Int32 FuelQuoteApp_p1.Provider.FuelQuoteProvider::GetUserID(System.String)": {
+          "Lines": {
+            "51": 1,
+            "52": 1,
+            "53": 1
+          },
+          "Branches": []
+        },
+        "System.Void FuelQuoteApp_p1.Provider.FuelQuoteProvider::.ctor(FuelQuoteApp_p1.Repository.IFuelQuoteRepository)": {
+          "Lines": {
+            "11": 16,
+            "12": 16,
+            "13": 16,
+            "14": 16
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Models\\ErrorViewModel.cs": {
+      "FuelQuoteApp_p1.Models.ErrorViewModel": {
+        "System.String FuelQuoteApp_p1.Models.ErrorViewModel::get_RequestId()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean FuelQuoteApp_p1.Models.ErrorViewModel::get_ShowRequestId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Models\\Quote\\FQuote.cs": {
+      "FuelQuoteApp_p1.Models.Quote.FQuote": {
+        "System.Int32 FuelQuoteApp_p1.Models.Quote.FQuote::get_GallonsRequested()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.Models.Quote.FQuote::get_DeliveryAddress()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime FuelQuoteApp_p1.Models.Quote.FQuote::get_DateRequested()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Single FuelQuoteApp_p1.Models.Quote.FQuote::get_PricePerGallon()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Single FuelQuoteApp_p1.Models.Quote.FQuote::get_TotalAmount()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        }
+      },
+      "FuelQuoteApp_p1.Models.Quote.MyDateAttribute": {
+        "System.Boolean FuelQuoteApp_p1.Models.Quote.MyDateAttribute::IsValid(System.Object)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Models\\Client_Profile\\Profile.cs": {
+      "FuelQuoteApp_p1.Models.Client_Profile.Profile": {
+        "System.String FuelQuoteApp_p1.Models.Client_Profile.Profile::get_FullName()": {
+          "Lines": {
+            "10": 23
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.Models.Client_Profile.Profile::get_Address1()": {
+          "Lines": {
+            "14": 20
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.Models.Client_Profile.Profile::get_Address2()": {
+          "Lines": {
+            "17": 13
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.Models.Client_Profile.Profile::get_City()": {
+          "Lines": {
+            "21": 17
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<FuelQuoteApp_p1.Models.Client_Profile.States> FuelQuoteApp_p1.Models.Client_Profile.Profile::get_State()": {
+          "Lines": {
+            "24": 8
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.Models.Client_Profile.Profile::get_ZipCode()": {
+          "Lines": {
+            "29": 13
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Models\\Account\\Login.cs": {
+      "FuelQuoteApp_p1.Models.Account.Login": {
+        "System.String FuelQuoteApp_p1.Models.Account.Login::get_Email()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.Models.Account.Login::get_Password()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean FuelQuoteApp_p1.Models.Account.Login::get_RememberMe()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Models\\Account\\Register.cs": {
+      "FuelQuoteApp_p1.Models.Account.Register": {
+        "System.String FuelQuoteApp_p1.Models.Account.Register::get_UserName()": {
+          "Lines": {
+            "9": 17
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.Models.Account.Register::get_Email()": {
+          "Lines": {
+            "13": 13
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.Models.Account.Register::get_Password()": {
+          "Lines": {
+            "18": 9
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.Models.Account.Register::get_ConfirmPassword()": {
+          "Lines": {
+            "23": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Models\\FuelQuoteDBContext.cs": {
+      "FuelQuoteApp_p1.Models.Account.FuelQuoteDBContext": {
+        "System.Void FuelQuoteApp_p1.Models.Account.FuelQuoteDBContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<FuelQuoteApp_p1.EntModels.Models.Client> FuelQuoteApp_p1.Models.Account.FuelQuoteDBContext::get_Client()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<FuelQuoteApp_p1.EntModels.Models.User> FuelQuoteApp_p1.Models.Account.FuelQuoteDBContext::get_UsersInfo()": {
+          "Lines": {
+            "22": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<FuelQuoteApp_p1.EntModels.Models.Quote> FuelQuoteApp_p1.Models.Account.FuelQuoteDBContext::get_FuelQuote()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void FuelQuoteApp_p1.Models.Account.FuelQuoteDBContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<FuelQuoteApp_p1.Models.Account.FuelQuoteDBContext>)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Migrations\\20220718035929_db1.cs": {
+      "FuelQuoteApp_p1.Migrations.db1": {
+        "System.Void FuelQuoteApp_p1.Migrations.db1::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0
+          },
+          "Branches": []
+        },
+        "System.Void FuelQuoteApp_p1.Migrations.db1::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "252": 0,
+            "253": 0,
+            "255": 0,
+            "256": 0,
+            "258": 0,
+            "259": 0,
+            "261": 0,
+            "262": 0,
+            "264": 0,
+            "265": 0,
+            "267": 0,
+            "268": 0,
+            "270": 0,
+            "271": 0,
+            "273": 0,
+            "274": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Migrations\\20220718035929_db1.Designer.cs": {
+      "FuelQuoteApp_p1.Migrations.db1": {
+        "System.Void FuelQuoteApp_p1.Migrations.db1::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "282": 0,
+            "283": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "301": 0,
+            "302": 0,
+            "304": 0,
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "308": 0,
+            "309": 0,
+            "310": 0,
+            "311": 0,
+            "313": 0,
+            "314": 0,
+            "315": 0,
+            "316": 0,
+            "317": 0,
+            "318": 0,
+            "319": 0,
+            "320": 0,
+            "322": 0,
+            "323": 0,
+            "324": 0,
+            "325": 0,
+            "326": 0,
+            "327": 0,
+            "328": 0,
+            "329": 0,
+            "331": 0,
+            "332": 0,
+            "333": 0,
+            "334": 0,
+            "335": 0,
+            "336": 0,
+            "337": 0,
+            "338": 0,
+            "339": 0,
+            "340": 0,
+            "341": 0,
+            "342": 0,
+            "343": 0,
+            "344": 0,
+            "346": 0,
+            "347": 0,
+            "348": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "352": 0,
+            "353": 0,
+            "355": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Migrations\\FuelQuoteDBContextModelSnapshot.cs": {
+      "FuelQuoteApp_p1.Migrations.FuelQuoteDBContextModelSnapshot": {
+        "System.Void FuelQuoteApp_p1.Migrations.FuelQuoteDBContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "283": 0,
+            "284": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "302": 0,
+            "303": 0,
+            "304": 0,
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "308": 0,
+            "309": 0,
+            "311": 0,
+            "312": 0,
+            "313": 0,
+            "314": 0,
+            "315": 0,
+            "316": 0,
+            "317": 0,
+            "318": 0,
+            "320": 0,
+            "321": 0,
+            "322": 0,
+            "323": 0,
+            "324": 0,
+            "325": 0,
+            "326": 0,
+            "327": 0,
+            "329": 0,
+            "330": 0,
+            "331": 0,
+            "332": 0,
+            "333": 0,
+            "334": 0,
+            "335": 0,
+            "336": 0,
+            "337": 0,
+            "338": 0,
+            "339": 0,
+            "340": 0,
+            "341": 0,
+            "342": 0,
+            "344": 0,
+            "345": 0,
+            "346": 0,
+            "347": 0,
+            "348": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "353": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Controllers\\AccountController.cs": {
+      "FuelQuoteApp_p1.Controllers.AccountController": {
+        "System.Boolean FuelQuoteApp_p1.Controllers.AccountController::RegisterDataValidation(FuelQuoteApp_p1.Models.Account.Register)": {
+          "Lines": {
+            "133": 6,
+            "134": 6,
+            "135": 6,
+            "136": 4,
+            "137": 4,
+            "138": 3,
+            "139": 3,
+            "140": 2,
+            "141": 2,
+            "142": 2,
+            "143": 3,
+            "144": 4,
+            "146": 2,
+            "147": 2,
+            "148": 2,
+            "150": 6,
+            "151": 6
+          },
+          "Branches": [
+            {
+              "Line": 135,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 5
+            },
+            {
+              "Line": 135,
+              "Offset": 16,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 135,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 4
+            },
+            {
+              "Line": 137,
+              "Offset": 58,
+              "EndOffset": 60,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 137,
+              "Offset": 58,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 137,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 139,
+              "Offset": 103,
+              "EndOffset": 105,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 139,
+              "Offset": 103,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 137,
+              "Offset": 81,
+              "EndOffset": 110,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 4
+            },
+            {
+              "Line": 135,
+              "Offset": 39,
+              "EndOffset": 113,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void FuelQuoteApp_p1.Controllers.AccountController::.ctor(Microsoft.AspNetCore.Identity.UserManager`1<Microsoft.AspNetCore.Identity.IdentityUser>,Microsoft.AspNetCore.Identity.SignInManager`1<Microsoft.AspNetCore.Identity.IdentityUser>,FuelQuoteApp_p1.Provider.IFuelQuoteProvider)": {
+          "Lines": {
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Controllers\\ClientController.cs": {
+      "FuelQuoteApp_p1.Controllers.ClientController": {
+        "System.Boolean FuelQuoteApp_p1.Controllers.ClientController::ClientProfileDataValidation(FuelQuoteApp_p1.Models.Client_Profile.Profile)": {
+          "Lines": {
+            "94": 8,
+            "95": 8,
+            "96": 8,
+            "97": 6,
+            "98": 6,
+            "99": 5,
+            "100": 5,
+            "101": 3,
+            "102": 3,
+            "103": 2,
+            "104": 2,
+            "105": 2,
+            "106": 3,
+            "107": 5,
+            "108": 6,
+            "110": 2,
+            "111": 2,
+            "112": 2,
+            "114": 8,
+            "115": 8
+          },
+          "Branches": [
+            {
+              "Line": 96,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 96,
+              "Offset": 16,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 96,
+              "Offset": 39,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 6
+            },
+            {
+              "Line": 98,
+              "Offset": 58,
+              "EndOffset": 60,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 6
+            },
+            {
+              "Line": 98,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 5
+            },
+            {
+              "Line": 98,
+              "Offset": 58,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 98,
+              "Offset": 76,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 98,
+              "Offset": 101,
+              "EndOffset": 103,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 5
+            },
+            {
+              "Line": 100,
+              "Offset": 117,
+              "EndOffset": 119,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 4
+            },
+            {
+              "Line": 100,
+              "Offset": 117,
+              "EndOffset": 137,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 100,
+              "Offset": 140,
+              "EndOffset": 142,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 3
+            },
+            {
+              "Line": 102,
+              "Offset": 156,
+              "EndOffset": 158,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 2
+            },
+            {
+              "Line": 102,
+              "Offset": 156,
+              "EndOffset": 177,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            },
+            {
+              "Line": 102,
+              "Offset": 182,
+              "EndOffset": 184,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 2
+            },
+            {
+              "Line": 102,
+              "Offset": 182,
+              "EndOffset": 188,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 3
+            },
+            {
+              "Line": 100,
+              "Offset": 140,
+              "EndOffset": 189,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 5
+            },
+            {
+              "Line": 98,
+              "Offset": 101,
+              "EndOffset": 190,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 6
+            },
+            {
+              "Line": 96,
+              "Offset": 39,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void FuelQuoteApp_p1.Controllers.ClientController::.ctor(FuelQuoteApp_p1.Provider.IFuelQuoteProvider)": {
+          "Lines": {
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Controllers\\HomeController.cs": {
+      "FuelQuoteApp_p1.Controllers.HomeController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult FuelQuoteApp_p1.Controllers.HomeController::Index()": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult FuelQuoteApp_p1.Controllers.HomeController::Privacy()": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult FuelQuoteApp_p1.Controllers.HomeController::Error()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 14,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 26,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void FuelQuoteApp_p1.Controllers.HomeController::.ctor(Microsoft.Extensions.Logging.ILogger`1<FuelQuoteApp_p1.Controllers.HomeController>)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Controllers\\QuoteController.cs": {
+      "FuelQuoteApp_p1.Controllers.QuoteController": {
+        "System.Boolean FuelQuoteApp_p1.Controllers.QuoteController::QuoteDataValidation(FuelQuoteApp_p1.EntModels.Models.Quote)": {
+          "Lines": {
+            "124": 3,
+            "125": 3,
+            "126": 3,
+            "127": 2,
+            "128": 2,
+            "129": 1,
+            "130": 1,
+            "131": 1,
+            "133": 2,
+            "135": 1,
+            "136": 1,
+            "137": 1,
+            "139": 3,
+            "140": 3
+          },
+          "Branches": [
+            {
+              "Line": 126,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 128,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 128,
+              "Offset": 38,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 126,
+              "Offset": 14,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void FuelQuoteApp_p1.Controllers.QuoteController::.ctor(FuelQuoteApp_p1.Provider.IFuelQuoteProvider)": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "FuelQuoteApp_p1.EntModels.dll": {
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1.EntModels\\Program.cs": {
+      "FuelQuoteApp_p1.EntModels.Program": {
+        "System.Void FuelQuoteApp_p1.EntModels.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder FuelQuoteApp_p1.EntModels.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1.EntModels\\Startup.cs": {
+      "FuelQuoteApp_p1.EntModels.Startup": {
+        "System.Void FuelQuoteApp_p1.EntModels.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void FuelQuoteApp_p1.EntModels.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1.EntModels\\Models\\Client.cs": {
+      "FuelQuoteApp_p1.EntModels.Models.Client": {
+        "System.Int32 FuelQuoteApp_p1.EntModels.Models.Client::get_Id()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.Client::get_FullName()": {
+          "Lines": {
+            "11": 8
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.Client::get_Address1()": {
+          "Lines": {
+            "12": 8
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.Client::get_Address2()": {
+          "Lines": {
+            "13": 8
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.Client::get_City()": {
+          "Lines": {
+            "14": 8
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.Client::get_State()": {
+          "Lines": {
+            "15": 8
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.Client::get_ZipCode()": {
+          "Lines": {
+            "16": 8
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.Client::get_Email()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 FuelQuoteApp_p1.EntModels.Models.Client::get_User_Id()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1.EntModels\\Models\\Quote.cs": {
+      "FuelQuoteApp_p1.EntModels.Models.Quote": {
+        "System.Int32 FuelQuoteApp_p1.EntModels.Models.Quote::get_Id()": {
+          "Lines": {
+            "9": 24
+          },
+          "Branches": []
+        },
+        "System.Int32 FuelQuoteApp_p1.EntModels.Models.Quote::get_GallonsRequested()": {
+          "Lines": {
+            "10": 30
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.Quote::get_DeliveryAddress()": {
+          "Lines": {
+            "11": 24
+          },
+          "Branches": []
+        },
+        "System.DateTime FuelQuoteApp_p1.EntModels.Models.Quote::get_DateRequested()": {
+          "Lines": {
+            "12": 29
+          },
+          "Branches": []
+        },
+        "System.Single FuelQuoteApp_p1.EntModels.Models.Quote::get_PricePerGallon()": {
+          "Lines": {
+            "13": 24
+          },
+          "Branches": []
+        },
+        "System.Single FuelQuoteApp_p1.EntModels.Models.Quote::get_TotalAmount()": {
+          "Lines": {
+            "14": 24
+          },
+          "Branches": []
+        },
+        "System.Int32 FuelQuoteApp_p1.EntModels.Models.Quote::get_User_Id()": {
+          "Lines": {
+            "16": 24
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1.EntModels\\Models\\User.cs": {
+      "FuelQuoteApp_p1.EntModels.Models.User": {
+        "System.Int32 FuelQuoteApp_p1.EntModels.Models.User::get_Id()": {
+          "Lines": {
+            "8": 8
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.User::get_UserName()": {
+          "Lines": {
+            "9": 8
+          },
+          "Branches": []
+        },
+        "System.String FuelQuoteApp_p1.EntModels.Models.User::get_Email()": {
+          "Lines": {
+            "10": 8
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "FuelQuoteApp_p1.Views.dll": {
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Account\\Dashboard.cshtml": {
+      "AspNetCore.Views_Account_Dashboard/<ExecuteAsync>d__10": {
+        "System.Void AspNetCore.Views_Account_Dashboard/<ExecuteAsync>d__10::MoveNext()": {
+          "Lines": {
+            "2": 0
+          },
+          "Branches": [
+            {
+              "Line": 2,
+              "Offset": 506,
+              "EndOffset": 508,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 2,
+              "Offset": 506,
+              "EndOffset": 619,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 2,
+              "Offset": 1106,
+              "EndOffset": 1108,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 2,
+              "Offset": 1106,
+              "EndOffset": 1219,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Account\\Login.cshtml": {
+      "AspNetCore.Views_Account_Login/<<ExecuteAsync>b__22_0>d": {
+        "System.Void AspNetCore.Views_Account_Login/<<ExecuteAsync>b__22_0>d::MoveNext()": {
+          "Lines": {
+            "67": 0,
+            "68": 0,
+            "72": 0,
+            "73": 0,
+            "77": 0
+          },
+          "Branches": [
+            {
+              "Line": 67,
+              "Offset": 571,
+              "EndOffset": 573,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 571,
+              "EndOffset": 684,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 1185,
+              "EndOffset": 1187,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 1185,
+              "EndOffset": 1298,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 1821,
+              "EndOffset": 1823,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 1821,
+              "EndOffset": 1934,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 2435,
+              "EndOffset": 2437,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 2435,
+              "EndOffset": 2548,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 3013,
+              "EndOffset": 3015,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 3013,
+              "EndOffset": 3127,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Account_Login/<<ExecuteAsync>b__22_10>d": {
+        "System.Void AspNetCore.Views_Account_Login/<<ExecuteAsync>b__22_10>d::MoveNext()": {
+          "Lines": {
+            "78": 0,
+            "79": 0
+          },
+          "Branches": [
+            {
+              "Line": 78,
+              "Offset": 450,
+              "EndOffset": 452,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 450,
+              "EndOffset": 563,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Account_Login/<ExecuteAsync>d__22": {
+        "System.Void AspNetCore.Views_Account_Login/<ExecuteAsync>d__22::MoveNext()": {
+          "Lines": {
+            "3": 0
+          },
+          "Branches": [
+            {
+              "Line": 3,
+              "Offset": 595,
+              "EndOffset": 597,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 3,
+              "Offset": 595,
+              "EndOffset": 708,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 3,
+              "Offset": 1195,
+              "EndOffset": 1197,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 3,
+              "Offset": 1195,
+              "EndOffset": 1308,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Account\\Register.cshtml": {
+      "AspNetCore.Views_Account_Register/<<ExecuteAsync>b__24_0>d": {
+        "System.Void AspNetCore.Views_Account_Register/<<ExecuteAsync>b__24_0>d::MoveNext()": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "52": 0,
+            "53": 0,
+            "58": 0,
+            "59": 0,
+            "62": 0,
+            "63": 0
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 625,
+              "EndOffset": 627,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 625,
+              "EndOffset": 738,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 1239,
+              "EndOffset": 1241,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 1239,
+              "EndOffset": 1352,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 1875,
+              "EndOffset": 1877,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 1875,
+              "EndOffset": 1988,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 2489,
+              "EndOffset": 2491,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 2489,
+              "EndOffset": 2602,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 3125,
+              "EndOffset": 3127,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 3125,
+              "EndOffset": 3239,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 3741,
+              "EndOffset": 3743,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 3741,
+              "EndOffset": 3855,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 4379,
+              "EndOffset": 4381,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 4379,
+              "EndOffset": 4493,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 4995,
+              "EndOffset": 4997,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 4995,
+              "EndOffset": 5109,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Account_Register/<ExecuteAsync>d__24": {
+        "System.Void AspNetCore.Views_Account_Register/<ExecuteAsync>d__24::MoveNext()": {
+          "Lines": {
+            "3": 0
+          },
+          "Branches": [
+            {
+              "Line": 3,
+              "Offset": 595,
+              "EndOffset": 597,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 3,
+              "Offset": 595,
+              "EndOffset": 708,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 3,
+              "Offset": 1195,
+              "EndOffset": 1197,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 3,
+              "Offset": 1195,
+              "EndOffset": 1308,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Client\\ClientDashBoard.cshtml": {
+      "AspNetCore.Views_Client_ClientDashBoard/<<ExecuteAsync>b__8_1>d": {
+        "System.Void AspNetCore.Views_Client_ClientDashBoard/<<ExecuteAsync>b__8_1>d::MoveNext()": {
+          "Lines": {
+            "45": 0,
+            "63": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCore.Views_Client_ClientDashBoard/<ExecuteAsync>d__8": {
+        "System.Void AspNetCore.Views_Client_ClientDashBoard/<ExecuteAsync>d__8::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 378,
+              "EndOffset": 380,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 378,
+              "EndOffset": 491,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 816,
+              "EndOffset": 818,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 816,
+              "EndOffset": 929,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Client\\ClientProfile.cshtml": {
+      "AspNetCore.Views_Client_ClientProfile/<<ExecuteAsync>b__25_0>d": {
+        "System.Void AspNetCore.Views_Client_ClientProfile/<<ExecuteAsync>b__25_0>d::MoveNext()": {
+          "Lines": {
+            "59": 0,
+            "60": 0,
+            "65": 0,
+            "66": 0,
+            "72": 0,
+            "77": 0,
+            "78": 0,
+            "81": 0,
+            "84": 0,
+            "87": 0,
+            "88": 0
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 679,
+              "EndOffset": 681,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 679,
+              "EndOffset": 792,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 1293,
+              "EndOffset": 1295,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 1293,
+              "EndOffset": 1406,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 1929,
+              "EndOffset": 1931,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 1929,
+              "EndOffset": 2042,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 2543,
+              "EndOffset": 2545,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 2543,
+              "EndOffset": 2656,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 3179,
+              "EndOffset": 3181,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 3179,
+              "EndOffset": 3293,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 3817,
+              "EndOffset": 3819,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 3817,
+              "EndOffset": 3931,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 4433,
+              "EndOffset": 4435,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 4433,
+              "EndOffset": 4547,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 5107,
+              "EndOffset": 5109,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 5107,
+              "EndOffset": 5221,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 5723,
+              "EndOffset": 5725,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 5723,
+              "EndOffset": 5837,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 6361,
+              "EndOffset": 6363,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 6361,
+              "EndOffset": 6475,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 6977,
+              "EndOffset": 6979,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 6977,
+              "EndOffset": 7091,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Client_ClientProfile/<ExecuteAsync>d__25": {
+        "System.Void AspNetCore.Views_Client_ClientProfile/<ExecuteAsync>d__25::MoveNext()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": [
+            {
+              "Line": 5,
+              "Offset": 589,
+              "EndOffset": 591,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 5,
+              "Offset": 589,
+              "EndOffset": 702,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Client\\DisplayProfile.cshtml": {
+      "AspNetCore.Views_Client_DisplayProfile/<<ExecuteAsync>b__26_0>d": {
+        "System.Void AspNetCore.Views_Client_DisplayProfile/<<ExecuteAsync>b__26_0>d::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "40": 0,
+            "41": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "51": 0,
+            "52": 0,
+            "55": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 732,
+              "EndOffset": 734,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 732,
+              "EndOffset": 845,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 1452,
+              "EndOffset": 1454,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 1452,
+              "EndOffset": 1565,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 2066,
+              "EndOffset": 2068,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 2066,
+              "EndOffset": 2179,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 2644,
+              "EndOffset": 2646,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 2644,
+              "EndOffset": 2757,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3364,
+              "EndOffset": 3366,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3364,
+              "EndOffset": 3478,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 3980,
+              "EndOffset": 3982,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 3980,
+              "EndOffset": 4094,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 4560,
+              "EndOffset": 4562,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 4560,
+              "EndOffset": 4674,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 5282,
+              "EndOffset": 5284,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 5282,
+              "EndOffset": 5396,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 5862,
+              "EndOffset": 5864,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 5862,
+              "EndOffset": 5976,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 6584,
+              "EndOffset": 6586,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 6584,
+              "EndOffset": 6698,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 7200,
+              "EndOffset": 7202,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 7200,
+              "EndOffset": 7314,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 7780,
+              "EndOffset": 7782,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 7780,
+              "EndOffset": 7894,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 8538,
+              "EndOffset": 8540,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 8538,
+              "EndOffset": 8652,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 9154,
+              "EndOffset": 9156,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 9154,
+              "EndOffset": 9268,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 9734,
+              "EndOffset": 9736,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 9734,
+              "EndOffset": 9848,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 10456,
+              "EndOffset": 10458,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 10456,
+              "EndOffset": 10570,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 11072,
+              "EndOffset": 11074,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 11072,
+              "EndOffset": 11186,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Client_DisplayProfile/<ExecuteAsync>d__26": {
+        "System.Void AspNetCore.Views_Client_DisplayProfile/<ExecuteAsync>d__26::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "6": 0,
+            "20": 0,
+            "65": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 627,
+              "EndOffset": 629,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 627,
+              "EndOffset": 740,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Home\\Index.cshtml": {
+      "AspNetCore.Views_Home_Index/<ExecuteAsync>d__0": {
+        "System.Void AspNetCore.Views_Home_Index/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Home\\Privacy.cshtml": {
+      "AspNetCore.Views_Home_Privacy/<ExecuteAsync>d__0": {
+        "System.Void AspNetCore.Views_Home_Privacy/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0,
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Quote\\GetFinalQuote.cshtml": {
+      "AspNetCore.Views_Quote_GetFinalQuote/<<ExecuteAsync>b__21_0>d": {
+        "System.Void AspNetCore.Views_Quote_GetFinalQuote/<<ExecuteAsync>b__21_0>d::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "26": 0,
+            "27": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "35": 0,
+            "36": 0,
+            "39": 0,
+            "40": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 639,
+              "EndOffset": 641,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 639,
+              "EndOffset": 752,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 1275,
+              "EndOffset": 1277,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 1275,
+              "EndOffset": 1388,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 1889,
+              "EndOffset": 1891,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 1889,
+              "EndOffset": 2002,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 2467,
+              "EndOffset": 2469,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 2467,
+              "EndOffset": 2580,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 3165,
+              "EndOffset": 3167,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 3165,
+              "EndOffset": 3279,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 3745,
+              "EndOffset": 3747,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 3745,
+              "EndOffset": 3859,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 4469,
+              "EndOffset": 4471,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 4469,
+              "EndOffset": 4583,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 5085,
+              "EndOffset": 5087,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 5085,
+              "EndOffset": 5199,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 5665,
+              "EndOffset": 5667,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 5665,
+              "EndOffset": 5779,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 6365,
+              "EndOffset": 6367,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 6365,
+              "EndOffset": 6479,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 6945,
+              "EndOffset": 6947,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 6945,
+              "EndOffset": 7059,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 7645,
+              "EndOffset": 7647,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 7645,
+              "EndOffset": 7759,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Quote_GetFinalQuote/<ExecuteAsync>d__21": {
+        "System.Void AspNetCore.Views_Quote_GetFinalQuote/<ExecuteAsync>d__21::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 572,
+              "EndOffset": 574,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 572,
+              "EndOffset": 685,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Quote\\GetQuote.cshtml": {
+      "AspNetCore.Views_Quote_GetQuote/<<ExecuteAsync>b__21_0>d": {
+        "System.Void AspNetCore.Views_Quote_GetQuote/<<ExecuteAsync>b__21_0>d::MoveNext()": {
+          "Lines": {
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "58": 0,
+            "59": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "67": 0,
+            "68": 0,
+            "71": 0,
+            "72": 0
+          },
+          "Branches": [
+            {
+              "Line": 53,
+              "Offset": 639,
+              "EndOffset": 641,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 639,
+              "EndOffset": 752,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 1275,
+              "EndOffset": 1277,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 1275,
+              "EndOffset": 1388,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 1889,
+              "EndOffset": 1891,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 1889,
+              "EndOffset": 2002,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 2467,
+              "EndOffset": 2469,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 2467,
+              "EndOffset": 2580,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 3165,
+              "EndOffset": 3167,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 3165,
+              "EndOffset": 3279,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 3745,
+              "EndOffset": 3747,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 3745,
+              "EndOffset": 3859,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 4469,
+              "EndOffset": 4471,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 4469,
+              "EndOffset": 4583,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 5085,
+              "EndOffset": 5087,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 5085,
+              "EndOffset": 5199,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 5665,
+              "EndOffset": 5667,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 5665,
+              "EndOffset": 5779,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 6365,
+              "EndOffset": 6367,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 68,
+              "Offset": 6365,
+              "EndOffset": 6479,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 6945,
+              "EndOffset": 6947,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 6945,
+              "EndOffset": 7059,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 7645,
+              "EndOffset": 7647,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 7645,
+              "EndOffset": 7759,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Quote_GetQuote/<ExecuteAsync>d__21": {
+        "System.Void AspNetCore.Views_Quote_GetQuote/<ExecuteAsync>d__21::MoveNext()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 572,
+              "EndOffset": 574,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 572,
+              "EndOffset": 685,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Quote\\QuoteHistory.cshtml": {
+      "AspNetCore.Views_Quote_QuoteHistory/<ExecuteAsync>d__0": {
+        "System.Void AspNetCore.Views_Quote_QuoteHistory/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "33": 0,
+            "36": 0,
+            "39": 0,
+            "42": 0,
+            "45": 0,
+            "51": 0,
+            "54": 0,
+            "57": 0,
+            "60": 0,
+            "63": 0,
+            "66": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "74": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 1559,
+              "EndOffset": 624,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 1559,
+              "EndOffset": 1564,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Quote\\SavedQuote.cshtml": {
+      "AspNetCore.Views_Quote_SavedQuote/<<ExecuteAsync>b__18_0>d": {
+        "System.Void AspNetCore.Views_Quote_SavedQuote/<<ExecuteAsync>b__18_0>d::MoveNext()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "30": 0,
+            "31": 0,
+            "34": 0,
+            "35": 0,
+            "38": 0,
+            "39": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 585,
+              "EndOffset": 587,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 585,
+              "EndOffset": 698,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 1305,
+              "EndOffset": 1307,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 1305,
+              "EndOffset": 1418,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 1919,
+              "EndOffset": 1921,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 1919,
+              "EndOffset": 2032,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 2497,
+              "EndOffset": 2499,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 2497,
+              "EndOffset": 2610,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 3195,
+              "EndOffset": 3197,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 3195,
+              "EndOffset": 3309,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3775,
+              "EndOffset": 3777,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 3775,
+              "EndOffset": 3889,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 4475,
+              "EndOffset": 4477,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 4475,
+              "EndOffset": 4589,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 5055,
+              "EndOffset": 5057,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 5055,
+              "EndOffset": 5169,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 5755,
+              "EndOffset": 5757,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 5755,
+              "EndOffset": 5869,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCore.Views_Quote_SavedQuote/<ExecuteAsync>d__18": {
+        "System.Void AspNetCore.Views_Quote_SavedQuote/<ExecuteAsync>d__18::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "18": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 644,
+              "EndOffset": 646,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 644,
+              "EndOffset": 757,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Shared\\Error.cshtml": {
+      "AspNetCore.Views_Shared_Error/<ExecuteAsync>d__0": {
+        "System.Void AspNetCore.Views_Shared_Error/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "9": 0,
+            "10": 0,
+            "12": 0,
+            "14": 0
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 70,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Shared\\_CookieConsentPartial.cshtml": {
+      "AspNetCore.Views_Shared__CookieConsentPartial/<ExecuteAsync>d__10": {
+        "System.Void AspNetCore.Views_Shared__CookieConsentPartial/<ExecuteAsync>d__10::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "9": 0,
+            "10": 0,
+            "13": 0,
+            "25": 0
+          },
+          "Branches": [
+            {
+              "Line": 5,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 5,
+              "Offset": 81,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 108,
+              "EndOffset": 110,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 108,
+              "EndOffset": 114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 149,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 584,
+              "EndOffset": 586,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 584,
+              "EndOffset": 697,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 149,
+              "EndOffset": 805,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\Shared\\_Layout.cshtml": {
+      "AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__57_1>d": {
+        "System.Void AspNetCore.Views_Shared__Layout/<<ExecuteAsync>b__57_1>d::MoveNext()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "79": 0,
+            "81": 0,
+            "88": 0,
+            "99": 0,
+            "127": 0,
+            "129": 0
+          },
+          "Branches": [
+            {
+              "Line": 63,
+              "Offset": 685,
+              "EndOffset": 687,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 685,
+              "EndOffset": 798,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 901,
+              "EndOffset": 906,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 1383,
+              "EndOffset": 1385,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 1383,
+              "EndOffset": 1496,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 2005,
+              "EndOffset": 2007,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 2005,
+              "EndOffset": 2118,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 2672,
+              "EndOffset": 2674,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 2672,
+              "EndOffset": 2785,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 901,
+              "EndOffset": 2863,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 3340,
+              "EndOffset": 3342,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 3340,
+              "EndOffset": 3454,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 3986,
+              "EndOffset": 3988,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 3986,
+              "EndOffset": 4100,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 4512,
+              "EndOffset": 4514,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 88,
+              "Offset": 4512,
+              "EndOffset": 4626,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 5154,
+              "EndOffset": 5156,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 5154,
+              "EndOffset": 5268,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 5648,
+              "EndOffset": 5650,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 5648,
+              "EndOffset": 5762,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 6142,
+              "EndOffset": 6144,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 99,
+              "Offset": 6142,
+              "EndOffset": 6256,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 6767,
+              "EndOffset": 6769,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 6767,
+              "EndOffset": 6881,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\UH\\Summer\\SD\\FuelQuoteApp_p1\\FuelQuoteApp_p1\\Views\\_ViewStart.cshtml": {
+      "AspNetCore.Views__ViewStart/<ExecuteAsync>d__0": {
+        "System.Void AspNetCore.Views__ViewStart/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+﻿@model FuelQuoteApp_p1.Models.Client_Profile.Profile
+@{
+    ViewData["Title"] = "ClientProfile";
+}
+@{
+     Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+<script src="script/bootstrap.min.js"></script>
+<script src="script/jquery-1.10.2.min.js"></script>
+<style>
+#update_btn
+{
+    border-radius:20px;
+    background-color:#DA252A;
+    color:white;
+    border-color:#DA252A;
+}
+#title
+{
+    color:#DA252A;
+    font-family:'futura';
+    font-weight:bold;
+
+}
+#panel_box
+{
+    margin-left:-200px;
+}
+
+</style>
+
+<div class="container">
+    <div class="row centered-form" style="margin-top: 150px;">
+
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div>
+                <h1 style="color:#4d709e">Update Profile</h1>
+            </div>
+                </div>
+                <div class="panel-body">
+                      <form role="form" asp-action="ClientProfile" asp-controller="Client" method="post">
+                        <div class="form-group">
+                            <label asp-for="FullName">Full Name</label>
+                            <input asp-for="FullName" class="form-control input-sm" placeholder="Full Name">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                     <label asp-for="Address1">Address1</label>
+                                    <input asp-for="Address1" class="form-control input-sm" placeholder="Address1">
+                                    <span asp-validation-for="Address1" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                     <label asp-for="Address2">Address2</label>
+                                    <input asp-for="Address2" class="form-control input-sm" placeholder="Address2">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                             <label asp-for="City">City</label>
+                            <input asp-for="City" class="form-control input-sm" placeholder="City">
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                             <label asp-for="State">State</label>
+                            <select asp-for="State" class="custom-select mr-sm-2" asp-items="Html.GetEnumSelectList<FuelQuoteApp_p1.Models.Client_Profile.States>()">
+                                <option value="">Select State</option>
+                            </select>
+                            <span asp-validation-for="State" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                             <label asp-for="ZipCode">Zipcode</label>
+                            <input asp-for="ZipCode" class="form-control input-sm" placeholder="ZipCode">
+                            <span asp-validation-for="ZipCode" class="text-danger"></span>
+                        </div>
+                        <div class="row">
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        <input type="submit" value="Update" class="btn btn-info btn-block" id="update_btn">
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6">
+                        <input type="button" class="btn btn-info btn-block" id="update_btn" value="Go Back" onclick="location.href='@Url.Action("ClientDashBoard", "Client")'" />
+                    </div>
+                </div>
+                   
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
