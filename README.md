@@ -4,7 +4,7 @@ To predict the rate of the fuel based on the following criteria: - Client Locati
 
 
 
-## Assignment 4
+## Week 4
 
 ### Requirements and How to the Run the Project is same as for Assignment 2(Below)
 
@@ -69,7 +69,7 @@ This will create a database with name FQPDB in the microsoft sql server manageme
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Assignment 3
+## Week 3
 
 ### Requirements and How to the Run the Project is same as for Assignment 2(Below)
 
@@ -102,7 +102,7 @@ This will create a database with name FQPDB in the microsoft sql server manageme
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Assignment 2
+## Week 2
 
 ### Requirements
 1. Microsoft Visual Studio with .NET CORE 5
